@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#global {
+    background-color: #44AF69;
+    width: fit-content;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+#global__title {
+    text-align: center;
+}
+
+#form__container {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 15px;
+}
+
+#form {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#select {
+    display: flex;
+    flex-direction: column;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    padding: 7px;
+    margin: 15px;
+}
+
+#screen {
+    display: flex;
+    justify-content: center;
+}
